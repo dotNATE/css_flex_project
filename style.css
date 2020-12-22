@@ -1,10 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: Helvetica, sans-serif;
-  background-color: black;
   font-size: 22px;
   color: seashell;
-  /*opacity: 0.9;*/
   text-align: center;
+  /*opacity: 0.9;*/
+  background-color: black;
 }
 
 /* nav rules */
@@ -20,12 +25,20 @@ nav {
   background-color: black;
   text-decoration: underline;
   border: 1px solid seashell;
+  z-index: 10;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-around;
+  height: auto;
   width: 32%;
+  padding: 20px;
+}
+
+.nav-links p {
+  display: flex;
+  height: 50%;
 }
 
 .nav-logo {
@@ -41,3 +54,55 @@ nav {
   top: 9.5px;
   height: 50px;
 }
+
+/* mission rules */
+
+.mission {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 70px;
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+}
+
+.mission-textbox {
+  height: 90px;
+  width: 100%;
+  background-color: black;
+  border: 5px solid green;
+}
+
+/* monthly-tea rules */
+
+.monthly-tea-images {
+  display: flex;
+}
+
+.img-container img {
+  height: 200px;
+  width: 300px;
+}
+
+/* locations rules */
+
+.locations {
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.location-list {
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+}
+
+.office-location {
+  width: 300px;
+  background-color: black;
+}
+
+/* contact rules */
+
+/* footer */
