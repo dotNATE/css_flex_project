@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  opacity: 0.9;
 }
 
 html {
@@ -8,8 +9,8 @@ html {
   font-size: 22px;
   color: seashell;
   text-align: center;
-  /*opacity: 0.9;*/
   background-color: black;
+  opacity: 1;
 }
 
 /* nav rules */
@@ -71,7 +72,7 @@ nav {
 }
 
 .mission-textbox {
-  height: 90px;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -87,6 +88,11 @@ nav {
 .monthly-tea {
   width: 1000px;
   margin: 10px auto;
+}
+
+.monthly-tea h2,
+h4 {
+  margin: 10px;
 }
 
 .monthly-tea-imgs {
@@ -136,6 +142,7 @@ nav {
   flex-direction: column;
   justify-content: space-around;
   margin: 20px;
+  opacity: 1;
   background-color: black;
 }
 
@@ -149,3 +156,8 @@ nav {
 }
 
 /* footer */
+
+footer {
+  text-align: left;
+  padding: 20px;
+}
