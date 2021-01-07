@@ -64,6 +64,7 @@ nav {
   top: 70px;
   height: 700px;
   width: 1200px;
+  margin: 0 auto;
   background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
   background-repeat: no-repeat;
 }
@@ -71,8 +72,13 @@ nav {
 .mission-textbox {
   height: 90px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
   background-color: black;
-  border: 5px solid green;
+}
+
+.mission-textbox h2 {
+  padding: 10px;
 }
 
 /* monthly-tea rules */
