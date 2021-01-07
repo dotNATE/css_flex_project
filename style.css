@@ -108,17 +108,34 @@ nav {
 /* locations rules */
 
 .locations {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  opacity: 1;
+  display: flex;
+  flex-wrap: wrap;
   background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.locations h2 {
+  margin: 15px auto;
+  width: 100%;
 }
 
 .location-list {
   display: flex;
   justify-content: space-around;
   height: 500px;
+  width: 100%;
 }
 
 .office-location {
+  height: 300px;
   width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
   background-color: black;
 }
 
