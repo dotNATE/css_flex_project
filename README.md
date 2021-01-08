@@ -12,4 +12,4 @@ HTML5, CSS3
 
 The only direct guidance received for this project has been from Code Academy in the form of a design specification and all of the images used throughout.
 
-The spec can be found using the floowing link -> https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg 
+The spec can be found using the following link -> https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg 
